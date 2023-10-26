@@ -1,0 +1,10 @@
+@import url("assets\css_variables_tools.scss");
+* {
+  background-color: rgb(15, 15, 15);
+  display: flex;
+}
+
+h1 .title {
+  font-size: 35px;
+  color: rgb(249, 148, 23);
+}/*# sourceMappingURL=style.css.map */

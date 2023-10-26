@@ -1,0 +1,29 @@
+@import url("assets\css\_variables_tools.scss");
+
+$main_color: rgb(15, 15, 15);
+$sec_color: rgb(35, 45, 63);
+$thrd_color: rgb(249, 148, 23);
+
+
+@mixin create_box($width, $height, $bgrcolor, $bradius, $bshadow) {
+    width: #{$width};
+    height: #{$height};
+    background-color: #{$bgrcolor};
+    border-radius: #{$bradius};
+    box-shadow: #{$bshadow};
+}
+/*          */
+* {
+    background-color: $main_color;
+    display: flex;
+}
+
+h1 {
+    .title {
+        font-size: 35px;
+        color: $thrd_color;
+        justify-self: left;
+        align-self: top;
+    }
+
+}
