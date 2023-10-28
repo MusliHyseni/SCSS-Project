@@ -17,12 +17,9 @@ $thrd_color: rgb(249, 148, 23);
 }
 
 h1 {
-    .title {
         flex-flow: row nowrap;
         font-size: 45px;
         color: $thrd_color;
         justify-self: left;
         align-self: top;
-    }
-
 }
