@@ -2,6 +2,13 @@ $main_color: rgb(15, 15, 15);
 $sec_color: rgb(35, 45, 63);
 $thrd_color: rgb(249, 148, 23);
 
+@mixin fontface($family, $url0, $format0, $url1, $format1){
+    @font-face {
+        font-family: #{$family};
+        src: url(#{$url0}) format(#{$format0});
+        src: url(#{$url1}) format(#{$format1});;
+    }
+}
 
 @mixin create_box($width, $height, $bgrcolor, $bradius, $bshadow) {
     width: #{$width};
@@ -12,7 +19,8 @@ $thrd_color: rgb(249, 148, 23);
 }
 /*--------------------------------------------------------------------------------*/
 * {
-    background-color: white;
+    @include fontface($family:'Montserrat','assets\css\Montserrat-VariableFont_wght.ttf', 'ttf', 'assets\css\static\Montserrat-Regular.ttf', 'ttf');
+    background-color: $main_color;
     display: flex;
 }
 
