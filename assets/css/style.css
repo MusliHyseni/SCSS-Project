@@ -1,0 +1,13 @@
+/*--------------------------------------------------------------------------------*/
+* {
+  background-color: white;
+  display: flex;
+}
+
+h1 .title {
+  flex-flow: row nowrap;
+  font-size: 45px;
+  color: rgb(249, 148, 23);
+  justify-self: left;
+  align-self: top;
+}/*# sourceMappingURL=style.css.map */
