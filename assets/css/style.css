@@ -1,8 +1,12 @@
 /*--------------------------------------------------------------------------------*/
 * {
   background-color: rgb(15, 15, 15);
-  font-family: url("assets\cssMontserrat-VariableFont_wght.ttf");
   display: flex;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(assetsssMontserrat-VariableFont_wght.ttf) format(ttf);
+  src: url(assetsssstaticMontserrat-Regular.ttf) format(ttf);
 }
 
 h1 {

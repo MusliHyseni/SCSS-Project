@@ -19,7 +19,7 @@ $thrd_color: rgb(249, 148, 23);
 }
 /*--------------------------------------------------------------------------------*/
 * {
-    @include fontface($family:'Montserrat','assets\css\Montserrat-VariableFont_wght.ttf', 'ttf', 'assets\css\static\Montserrat-Regular.ttf', 'ttf');
+    @include fontface('assets\css\static\Montserrat-SemiBold.ttf', 'ttf', 'assets\css\static\Montserrat-Regular.ttf', 'ttf');
     background-color: $main_color;
     display: flex;
 }
