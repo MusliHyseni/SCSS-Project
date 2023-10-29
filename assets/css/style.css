@@ -3,13 +3,8 @@
   background-color: rgb(15, 15, 15);
   display: flex;
 }
-@font-face {
-  font-family: Montserrat;
-  src: url(assetsssMontserrat-VariableFont_wght.ttf) format(ttf);
-  src: url(assetsssstaticMontserrat-Regular.ttf) format(ttf);
-}
 
-h1 {
+.Reg_log_signin h1 {
   flex-flow: row nowrap;
   font-size: 45px;
   color: rgb(249, 148, 23);
