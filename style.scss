@@ -35,3 +35,16 @@ $thrd_color: rgb(249, 148, 23);
 
     }
 }
+
+a {
+
+    +p {
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+      }    
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

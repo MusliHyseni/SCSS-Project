@@ -20,4 +20,15 @@
   flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
+}
+
+a {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+a + p {
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
