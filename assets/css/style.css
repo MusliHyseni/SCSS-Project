@@ -1,13 +1,21 @@
 /*--------------------------------------------------------------------------------*/
 * {
+  font-family: Poppins, "sans-serif";
   background-color: rgb(15, 15, 15);
   display: flex;
 }
 
+.Reg_log_signin {
+  border: 2px solid white;
+  border-radius: 2px 2px 2px white;
+}
 .Reg_log_signin h1 {
   flex-flow: row nowrap;
   font-size: 45px;
   color: rgb(249, 148, 23);
   justify-self: left;
   align-self: top;
+}
+.Reg_log_signin h1 a {
+  flex-flow: column nowrap;
 }/*# sourceMappingURL=style.css.map */
