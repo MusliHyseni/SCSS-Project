@@ -18,27 +18,26 @@ $thrd_color: rgb(249, 148, 23);
     display: flex;
 }
 .Reg_log_signin{
+    width: 900px;
+    height: 900px;
+    justify-self: center;
+    align-self: center;
     border: 2px solid white;
-    border-radius: 2px 2px 2px white;
+    border-radius: 12px 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
     h1 {
         flex-flow: row nowrap;
-        font-size: 45px;
+        font-size: 70px;
         color: $thrd_color;
-        justify-self: left;
+        justify-self: center;
         align-self: top;
-
-        a {
-            flex-flow: column nowrap;
-            justify-content: space-around;
-            align-items: center;
-        }
-
     }
 }
 
 a {
 
-    +p {
+    ~p {
         flex-flow: column nowrap;
         justify-content: space-around;
         align-items: center;
@@ -46,5 +45,5 @@ a {
 
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: space-around;
 }
