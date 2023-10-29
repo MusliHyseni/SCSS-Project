@@ -15,16 +15,21 @@ $thrd_color: rgb(249, 148, 23);
 * {
     font-family: Poppins, 'sans-serif';
     background-color: $main_color;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 12*1fr;
 }
+
 .Reg_log_signin{
     width: 900px;
     height: 900px;
+    grid-column: 2/5;
+    grid-row: 0/13;
     justify-self: center;
     align-self: center;
     border: 2px solid white;
     border-radius: 12px 12px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(112, 111, 59, 0.25) 0px 6px 12px -2px, rgba(141, 156, 51, 0.3) 0px 3px 7px -3px;
 
     h1 {
         flex-flow: row nowrap;
@@ -35,15 +40,10 @@ $thrd_color: rgb(249, 148, 23);
     }
 }
 
-a {
-
-    ~p {
-        flex-flow: column nowrap;
-        justify-content: space-around;
-        align-items: center;
-      }    
-
+.writing{
     flex-direction: column;
     justify-content: space-around;
-    align-items: space-around;
+    align-items: space-between;
+    gap: 5px 5px;
+
 }
