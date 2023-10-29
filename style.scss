@@ -18,11 +18,8 @@ $thrd_color: rgb(249, 148, 23);
     display: flex;
 }
 .Reg_log_signin{
-
     border: 2px solid white;
     border-radius: 2px 2px 2px white;
-
-
     h1 {
         flex-flow: row nowrap;
         font-size: 45px;
@@ -32,6 +29,8 @@ $thrd_color: rgb(249, 148, 23);
 
         a {
             flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
         }
 
     }
